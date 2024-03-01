@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Gladson Routh">
+    <meta name="keywords" content="PORTFOLIOWEBSITE GSRPORTFOLIO GLADSONPORTFOLIO HTMLCSS RESPONSIVEWEBSITE">
+    <!-- favicon icon -->
+    <link rel="icon" type="image/x-icon" href="./images/fav-icon.png" sizes="192x192">
+    <!-- google font link -->
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <!-- box icons link -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- external css link -->
+    <link rel="stylesheet" href="./style.css">
+    <title>GSR Portfolio</title>
+</head>
+<body>
+    
+    <!-- header section -->
+    <header>
+        <!-- navbar  -->
+        <nav>
+
+            <!-- sidebar for small screen when click menu button-->
+            <ul class="sidebar">
+                <li class="hide-sidebar"><a href="#"><i class='bx bx-chevrons-right' style='color:#00d0ff'></i></a></li>
+                <li><a href="#home-section">Home</a></li>
+                <li><a href="#about-section">About Me</a></li>
+                <li><a href="#skill-section">Skills</a></li>
+                <li><a href="#project-section">Services</a></li>
+                <li><a href="#project-section">Projects</a></li>
+                <li><a href="#contact-section">Contact</a></li>
+            </ul>
+
+            <!-- for large screen -->
+            <ul>
+                <!-- logo -->
+                <li id="logo"><a href="#"><span>GLADSON.</span></a></li>
+                <!-- darkmode -->
+                <i class='bx bxs-moon darkmode' style='color:#ffffff'></i>
+                <!-- lightmode -->
+                <i class='bx bxs-sun lightmode' style='color:#ffffff'></i>
+                
+                <!-- navlinks -->
+                <li class="hideOnMobile"><a href="#home-section">Home</a></li>
+                <li class="hideOnMobile"><a href="#about-section">About Me</a></li>
+                <li class="hideOnMobile"><a href="#skill-section">Skills</a></li>
+                <li class="hideOnMobile"><a href="#project-section">Services</a></li>
+                <li class="hideOnMobile"><a href="#project-section">Projects</a></li>
+                <li class="hideOnMobile"><a href="#contact-section">Contact</a></li>
+                <li class="menu"><a href="#"><i class='bx bx-menu menu-btn'></i></a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- main section start-->
+    <main>
+        <!-- home section -->
+        <section id="home-section">
+            <div class="home-container">
+                <h1>Meet A Developer</h1>
+                
+                <div class="home-image">
+                    <img src="./images/home.png" alt="Gladson-picture" width="300px" height="400px">
+                </div>
+                
+                <div class="home-info">
+                    <span>HELLO EVERYBODY, I AM</span>
+                    <h2>Gladson Routh</h2>
+                    <span>Full Stack Developer</span>
+
+                    <p>
+                        First of all thanks to visit my portfolio website. This page is all about what I do.
+                        I built several projects in React.js and Django framework.please go through my service 
+                        section and if you find something useful then contact me through my contact form or social networks.
+                        Thanks!
+                    </p>
+                    <!-- social media links -->
+                    <div class="social-links">
+                        <i class='bx bxl-twitter' style='color:#ffffff'></i>
+                        <i class='bx bxl-linkedin' style='color:#ffffff'></i>
+                        <i class='bx bxl-facebook-circle' style='color:#ffffff'></i>
+                        <i class='bx bxl-instagram' style='color:#ffffff'></i>
+                    </div>
+
+                    <div class='home-btn'>
+                        <button class='learn-btn' type="button">Let's Talk</button>
+                        <button class='learn-btn' type="button"><a href="https://downloadcv">Download Resume</a></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- About Me section -->
+        <section id="about-section">
+            <div class="about-container">
+                <h1> <span>About</span> Me</h1>
+                <div class="about-content">
+                    <div class="about-image">
+                        <img src="./images/about.jpg" alt="about-image" width="150px" height="260px">
+                        <span class="circle-spin"></span>
+                    </div>
+                    
+                    <div class="about-info">
+                        <h2>Musician <span>|</span> Programmer <span>|</span> Learner</h2>
+                        <p>
+                            Music gives a soul to the universe, wings to the mind, flight to the
+                            imagination and life to everything in the world. And when I build a
+                            website or any web components I try to make a sense of it. At first I plan
+                            what to do then design it. After that I build, test and deploy it. I always
+                            stay motivated to learn new technologies and key skills. Good communication with
+                            client gives me the opportunity to understand their point of view on the project.
+                            And it's give me the clarity to build a good project. So I always prefer to listen
+                            them and obviously I also share my thoughts and creativity in front of them. I still
+                            learning and the whole purpose of education is to turn mirrors into windows. There is
+                            divine beauty in learning… To learn means to accept the postulate that life did not begin
+                            at my birth. Others have been here before me, and I walk in their footsteps.
+                        </p>
+                    </div>
+                    
+                    <div class="about-btn">
+                        <button type="button" class="btn">Read More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Skills section -->
+        <section id="skill-section">
+            <div class="skill-container">
+                <h1>My <span>Skills</span></h1>
+                
+                <div class="skills-box">
+                    <div class="skills-content">
+                        <div class="progress">
+                            <h3>HTML & CSS <span>90%</span></h3>
+                            <div class="bar"><span class="html-bar"></span></div>
+                        </div>
+                
+                        <div class="progress">
+                            <h3>JAVASCRIPT <span>80%</span></h3>
+                            <div class="bar"><span class="js-bar"></span></div>
+                        </div>
+                
+                        <div class="progress">
+                            <h3> MERN STACK <span>70%</span></h3>
+                            <div class="bar"><span class="mern-bar"></span></div>
+                        </div>
+                
+                        <div class="progress">
+                            <h3>PYTHON <span>85%</span></h3>
+                            <div class="bar"><span class="py-bar"></span></div>
+                        </div>
+
+                        <div class="progress">
+                            <h3>DJANGO <span>80%</span></h3>
+                            <div class="bar"><span class="django-bar"></span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!--  Certifications section -->
+        <section id="certification-section">
+            <div class="certificate-container">
+                <h1>Certification</h1>
+                <div class="content">
+                    <div class="c-1 box">
+                        <img src="./images/oracle.png" alt="oracle-certification">
+                        <div class="overlay">
+                            This is Oracle certificate from NIIT. </br>
+                            In 2020.
+                        </div>
+                    </div>
+                    <div class="c-2 box">
+                        <img src="./images/udemy.jpg" alt="fullstack-certification">
+                        <div class="overlay">
+                            This is Fullstack certificate from Udemy. </br>
+                            In 2023
+                        </div>
+                    </div>
+                    <div class="c-3 box">
+                        <img src="./images/internshala.png" alt="internshala-certification">
+                        <div class="overlay">
+                            This is from Internshala. </br>
+                            In 2024
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certificate-btn">
+                    <a href="https://www.udemy.com/certificate/UC-7fca8ec2-6885-4f78-91de-7ca1a48fc149/">ORACLE</a>
+                    <a href="https://www.udemy.com/certificate/UC-7fca8ec2-6885-4f78-91de-7ca1a48fc149/">FULLSTACK</a>
+                    <a href="https://www.udemy.com/certificate/UC-7fca8ec2-6885-4f78-91de-7ca1a48fc149/">MERN</a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Projects section -->
+        <section id="project-section">
+            <div class="project-container">
+                <h1>Latest Projects</h1>
+                <div class="project-content">
+                    <div class="project-box project-1">
+                        <img src="./images/react_project.png" alt="react_project" width="100%" height="100%">
+                        <span class="box-ring"><i class='bx bxl-react'></i></span>
+                    </div>
+                    <div class="project-box project-2">
+                        <img src="./images/react2.png" alt="react_project" width="100%" height="100%">
+                        <span class="box-ring"><i class='bx bx-movie-play' style='color:black'></i></span>
+                    </div>
+                    <div class="project-box project-3">
+                        <img src="./images/portfolio.png" alt="portfolio_project" width="100%" height="100%">
+                        <span class="box-ring box-ring-sm"><i class='bx bxl-javascript' style='color:black'></i></span>
+                    </div>
+                    <div class="project-box project-4">
+                        <img src="./images/blogpost.png" alt="portfolio_project" width="100%" height="100%">
+                        <span class="bottom-ring"><i class='bx bxl-html5' style='color:black'></i></span>
+                    </div>
+                    <div class="project-box project-5">
+                        <img src="./images/blog.png" alt="portfolio_project" width="100%" height="100%">
+                        <span class="bottom-ring"><i class='bx bxl-css3' style='color:black'></i></span>
+                    </div>
+                    <div class="project-box project-6">
+                        <img src="./images/node-js-project.jpeg" alt="node.js_project" width="100%" height="100%">
+                        <span class="bottom-ring"><i class='bx bxl-nodejs' style='color:black'></i></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Contact Section -->
+        <section id="contact-section">
+            <div class="cont-container">
+                <div class="cont-content">
+                    <div class="cont-1">
+                        <h1>Contact Me</h1>
+                        <img src="./images/cont-image.jpg" alt="contact-image" />
+                    </div>
+        
+                    <div class="cont-2">
+                        <form action="#" method="post">
+        
+                            <label for="name">Name</label>
+                            <input id="name" type="text" name="name" placeholder="Enter Your Name">
+        
+                            <label for="email">Email</label>
+                            <input id="email" type="text" name="email" placeholder="Enter Your Email">
+        
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="massage" placeholder="Enter Your Message"></textarea>
+        
+        
+                            <button type="submit">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- Footer section -->
+        <section id="footer-section">
+            <div class="footer-container">
+                <div class="footer-content">
+                    <h3><span>Full Stack</span> Developer</h3>
+                    <div class="footer-icons">
+                        <button type="button" class="but"><i class='bx bxl-gmail i1' style='color:floralwhite'></i></button>
+                        <button type="button" class="but"><i class='bx bxs-phone-call i2' style='color:chartreuse'></i></button>
+                    </div>
+                    <p>copyright &copy; 2024 <span class="footer-name">GladsonRouth</span></p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+
+
+
+
+
+
+
+
+
+
+<!-- internal script -->
+<script>
+    // code for open the side bar
+    var sidebar = document.querySelector('.menu-btn');
+    sidebar.addEventListener('click', function (e) {
+        e.preventDefault();
+        let sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = 'flex';
+    })
+
+    // hide the side bar
+    var hide = document.querySelector('.hide-sidebar');
+    hide.addEventListener('click', function (e) {
+        e.preventDefault();
+        let sidebar = document.querySelector('.sidebar');
+        sidebar.style.display = 'none';
+    })
+
+    // darkmode click function
+    const btn = document.querySelector('.darkmode');
+    btn.addEventListener('click', function () {
+        const lightmode = document.querySelector('.lightmode');
+        lightmode.style.display = 'block';
+        this.style.display = 'none';
+    })
+
+    //lightmode click function
+    const light = document.querySelector('.lightmode');
+    light.addEventListener('click', function () {
+        const darkmode = document.querySelector('.darkmode');
+        darkmode.style.display = 'block';
+        this.style.display = 'none';
+    })
+
+</script>
+</body>
+</html> 
